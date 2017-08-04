@@ -1,0 +1,28 @@
+npm install -g cordova ionic
+
+Explore Ionic CLI a bit
+$ ionic start myapp1 blank
+$ ionic start myapp2 tabs
+$ ionic start myapp3 sidemenu
+$ ionic start mysapp4 conference
+
+ionic serve //can only be ran within the ionic app/project. Runs the app in a browser
+
+instructor modified these files:
+src/pages/home.html
+src/pages/home.ts
+
+
+$ ionic platform add android
+The platform command has been renamed. To find out more, run:
+
+  ionic cordova platform --help
+
+
+$ ionic emulate android
+The emulate command has been renamed. To find out more, run:
+
+  ionic cordova emulate --help
+
+ANDROID_HOME = C:\Users\gardner\AppData\Local\Android\sdk
+
